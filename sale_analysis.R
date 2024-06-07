@@ -29,3 +29,16 @@ print(sorted_sales)
 # Save the results to a CSV file
 output_file <- "sorted_sales.csv"
 write.csv(sorted_sales, file = output_file, row.names = FALSE)
+
+
+
+
+
+#| ProductID | ProductName | Category    | SalesAmount | SalesDate   |
+#|-----------|-------------|-------------|-------------|-------------|
+#| 1         | TV          | Electronics | 500         | 2024-01-01  |
+#| 2         | Laptop      | Electronics | 1000        | 2024-01-02  |
+#| 3         | Blender     | Home Goods  | 150         | 2024-01-03  |
+#| 4         | Headphones  | Electronics | 200         | 2024-01-04  |
+#| 5         | Toaster     | Home Goods  | 50          | 2024-01-05  |
+
